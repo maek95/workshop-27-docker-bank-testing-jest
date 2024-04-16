@@ -20,7 +20,7 @@ import bcrypt from "bcrypt";
 // shh -i <din-nyckel>.pem -r ./ ubuntu@<din-ec2-instans>
 
 const PORT = 4001;
-const app = express();
+const app = express(); //a
 
 // connect to DB
 const pool = mysql.createPool({
